@@ -1,0 +1,16 @@
+server:
+  port: 8087
+dubbo:
+  application:
+    name: frontend-cart
+  registry:
+    address: zookeeper://192.168.8.128:2181
+    timeout: 50000
+
+
+  protocol:
+    port: 20885
+    name: dubbo
+spring:
+  profiles:
+    active: redis

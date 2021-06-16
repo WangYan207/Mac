@@ -1,0 +1,12 @@
+server:
+  port: 8083
+spring:
+  profiles:
+    active: contentmapper,commonspojo,redis
+
+dubbo:
+  application:
+    name: frontend-portal
+  registry:
+    address: zookeeper://192.168.8.128:2181
+    timeout: 50000

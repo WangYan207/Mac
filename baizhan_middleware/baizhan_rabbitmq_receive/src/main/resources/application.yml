@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: rabbitmq,redis,commonspojo,ordermapper
+dubbo:
+  application:
+    name: backend-content
+  registry:
+    address: zookeeper://192.168.8.128:2181
+    timeout: 50000
+  consumer:
+    check: false

@@ -1,0 +1,13 @@
+# Project exclude paths
+/baizhan_api/baizhan_api_item/target/
+/baizhan_backend/baizhan_backend_content/target/
+/baizhan_backend/baizhan_backend_item/target/
+/baizhan_commons/baizhan_commons_fileupload/target/
+/baizhan_commons/baizhan_commons_pojo/target/
+/baizhan_commons/baizhan_commons_rabbitmq/target/
+/baizhan_commons/baizhan_commons_utils/target/
+/baizhan_commons/baizhan_mapper/baizhan_mapper_content/target/
+/baizhan_commons/baizhan_mapper/baizhan_mapper_item/target/
+/baizhan_commons/baizhan_pojo/baizhan_pojo_content/target/
+/baizhan_commons/baizhan_pojo/baizhan_pojo_item/target/
+/test1/target/
